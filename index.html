@@ -2,16 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Gradient Background</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body onload="setGradient()"id="gradient">
 	<h1>Background Generator</h1>
 	<input class="color1" type="color" name="color1" value="#00ff00">
 	<input class="color2"type="color" name="color2" value="#ff0000">
 	<div class="container">
-		<button id="random" onclick="randomize()">Random</button>
+		<button id="random" onclick="randomize()">
+			Shuffle <i class="fa-solid fa-shuffle"></i>
+		</button>
 	</div>
 	<h2>Current CSS Background</h2>
 	<h3></h3>
