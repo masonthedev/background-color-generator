@@ -47,8 +47,9 @@ hr {
 }
 
 button {
-	margin-bottom:1em;
-	cursor: pointer;
+    margin-top: 10px;
+    margin-bottom:1em;
+    cursor: pointer;
     font-size: 1.2rem;
     height: 2.5rem;
     border: none;
