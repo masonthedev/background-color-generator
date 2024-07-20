@@ -1,0 +1,23 @@
+{
+  "name": "background-color-generator",
+  "version": "1.0.0",
+  "description": "Background Color Generator",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masonthedev/background-color-generator.git"
+  },
+  "author": "MasonTheDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masonthedev/background-color-generator/issues"
+  },
+  "homepage": "https://github.com/masonthedev/background-color-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
